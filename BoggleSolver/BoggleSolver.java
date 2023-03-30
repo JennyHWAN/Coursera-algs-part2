@@ -1,3 +1,5 @@
+package BoggleSolver;
+
 public class BoggleSolver {
     String[] dic;
 
@@ -8,7 +10,9 @@ public class BoggleSolver {
     }
 
     // Returns the set of all valid words in the given Boggle board, as an Iterable.
-    public Iterable<String> getAllValidWords(BoggleBoard board)
+    public Iterable<String> getAllValidWords(BoggleBoard board) {
+        
+    }
 
     // Returns the score of the given word if it is in the dictionary, zero otherwise.
     // (You can assume the word contains only the uppercase letters A through Z.)
